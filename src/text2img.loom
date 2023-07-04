@@ -23,5 +23,6 @@ raw,,(-1506.0,1323.0),,[123, 104, 114, 117, 112, 115, 99, 97, 108, 101, 114, 125
 expose_input,,(-2368.0,-78.0),,hrsteps,,[48, 46, 48],,Number,,0,,50
 img-probe,,(2321.0,714.0)
 expose_input,,(-2404.0,427.0),,denoisestr,,[48, 46, 55, 48, 49, 53, 55, 50, 54, 53, 54, 54, 51, 49, 52, 54, 57, 55],,Number,,0,,1
+expose_input,,(-2592.0,2738.0),,sync,,[],,Text,,0,,0
 connections:1:url>9:terminal0,1:data>3:data,2:var1>1:response,3:var1>0:out,3:prompt>5:out,3:negprompt>6:out,3:styles>8:out,3:hrupscaler>21:out,4:probe>3:data,7:terminal0>2:var2,23:probe>2:var2,
 .port=80
